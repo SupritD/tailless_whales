@@ -1,18 +1,15 @@
 var tl = gsap.timeline();
 
 tl.from("#heading",{
-    // y: 100,
     opacity: 0,
     duration: 0.5,
     delay: 0.5,
 })
 tl.from("#heading_discription",{
-    // y:100,
     opacity: 0,
     duration: 0.5
 })
 tl.from("#channel",{
-    // y:100,
     opacity: 0,
     duration: 0.5
 })
@@ -24,7 +21,6 @@ gsap.from("#hero_img_container img",{
     scrollTrigger: {
         trigger: "#hero_img_container img",
         scroller: "body",
-        markers:true,
         start: "top 80%"
     }
 })
